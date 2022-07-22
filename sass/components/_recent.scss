@@ -1,0 +1,170 @@
+#recent {
+    @include pgap(80px, 80px, 0, 0);
+
+    .recent-heading {
+        @include pgap(0, 80px, 0, 0);
+
+        h3 {
+            @include font('Raleway', 30px, 600, $servicehead);
+            @include pgap(0, 30px, 0, 0);
+        }
+
+        p {
+            @include font('Montserrat', 16px, 300, $servicepara);
+            line-height: 28px;
+        }
+    }
+
+    .recent-item {
+        @include pgap(0, 45px, 0, 0);
+        transition: all linear .3s;
+
+        .recent-item-image {
+            position: relative;
+
+            .recent-item-overlay {
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(17, 17, 17, 0.7);
+                opacity: 0;
+                transition: all linear .3s;
+            }
+
+            .recent-item-date {
+                position: absolute;
+                content: '';
+                top: 20px;
+                left: 20px;
+                width: 50px;
+                height: 35px;
+                background-color: $recentbg;
+                text-align: center;
+                transition: all linear .3s;
+
+                p {
+                    @include font('Montserrat', 24px, 300, $normal);
+                    line-height: 35px;
+                }
+            }
+
+            .recent-item-month {
+                position: absolute;
+                content: '';
+                top: 53px;
+                left: 20px;
+                width: 50px;
+                height: 25px;
+                background-color: $recentbg2;
+                text-align: center;
+                transition: all linear .3s;
+
+                p {
+                    @include font('Roboto', 12px, 400, $normal);
+                    line-height: 25px;
+                }
+            }
+        }
+
+        .recent-item-text {
+            @include pgap(0, 0, 30px, 0);
+
+            .recent-item-content {
+                h3 {
+                    @include font('Raleway', 20px, 600, $servicehead);
+                    @include pgap(30px, 20px, 0, 0);
+                    transition: all linear .3s;
+                }
+
+                p {
+                    @include font('Montserrat', 14px, 300, $servicepara);
+                    line-height: 22px;
+                    @include pgap(0, 15px, 0, 0);
+                    transition: all linear .3s;
+                }
+            }
+
+            .recent-item-link {
+                @include pgap(0, 25px, 0, 0);
+
+                .read-more {
+                    a {
+                        @include font('Montserrat', 14px, 300, $servicehover);
+                        text-transform: capitalize;
+                    }
+
+                    .recent-icon {
+                        color: $servicehover;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            background-color: $projecthoverbg;
+
+            .recent-item-image {
+                .recent-item-overlay {
+                    opacity: 1;
+                }
+
+                .recent-item-date {
+                    background-color: $servicehoverbg;
+                }
+
+                .recent-item-month {
+                    background-color: $recenthoverbg;
+                }
+            }
+
+            .recent-item-text {
+                .recent-item-content {
+                    h3 {
+                        color: $hover;
+                    }
+
+                    p {
+                        color: $normal;
+                    }
+                }
+            }
+        }
+    }
+
+    .recent-icon-wrapper {
+            .recent-icon-left{
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                border: 1px solid $projectpara;
+                color: $projectpara;
+                line-height: 20px;
+                text-align: center;
+                @include mgap(0,0,5px,5px);
+                transition: all linear .3s;
+                &:hover{
+                    border: 1px solid $servicehover;
+                    color: $servicehover;
+                }
+            }
+            .recent-icon-right{
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                border: 1px solid $projectpara;
+                color: $projectpara;
+                line-height: 20px;
+                text-align: center;
+                @include mgap(0,0,5px,5px);
+                transition: all linear .3s;
+                &:hover{
+                    border: 1px solid $servicehover;
+                    color: $servicehover;
+                }
+        }
+    }
+}

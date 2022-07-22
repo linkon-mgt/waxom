@@ -1,0 +1,42 @@
+#video{
+    background: url(../images/video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include pgap(210px,260px,0,0);
+    position: relative;
+    z-index: 1;
+    &::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(17, 17, 17, 0.5);
+        z-index: -1;
+    }
+    .video-wrapper{
+        .video-play-button {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: rgba(17, 17, 17, 0.6);
+            margin: 0 auto;
+            line-height: 100px;
+            color: $normal;
+            font-size: 60px;
+        }
+        .video-play-text{
+            h3{
+                @include font('Raleway',30px,500,$normal);
+                @include pgap(40px, 30px, 0, 0);
+                text-transform: capitalize;
+            }
+            p{
+                @include font('Montserrat',16px,300,$normal);
+                line-height: 28px;
+            }
+        }
+    }
+}

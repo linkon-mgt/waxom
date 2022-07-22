@@ -1,0 +1,128 @@
+#footer {
+    background-color: $footerbg;
+    @include pgap(80px, 80px, 0, 0);
+
+    .footer-item {
+
+        // line 1 start
+        .footer-line1 {
+            .footer-line1-logo {
+                @include pgap(0, 30px, 0, 0);
+            }
+
+            .footer-line1-text {
+                @include font('Montserrat', 14px, 300, $servicehead);
+                line-height: 24px;
+                @include pgap(0, 30px, 0, 0);
+            }
+
+            .footer-line1-link {
+                a {
+                    @include font('Montserrat', 14px, 400, $projectpara);
+                }
+
+                .footer-line1-icon {
+                    color: #c7c7c7;
+                }
+            }
+        }
+
+        // line 2 start
+        .footer-line2 {
+            h3 {
+                @include font('Raleway', 24px, 600, $normal);
+                @include pgap(30px, 30px, 0, 0);
+            }
+            .footer-line2-wrapper{
+                .footer-line2-item{
+                    @include pgap(15px, 15px, 0, 0);
+                    position: relative;
+                    transition: all linear 0.3s;
+                    p{
+                        @include font('Montserrat', 14px, 300, $servicehead);
+                        line-height: 20px;
+                        transition: all linear 0.3s;
+                    }
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        left: 0;
+                        bottom: 0px;
+                        height: 1px;
+                        width: 100%;
+                        background-color: $recentbg2;
+                    }
+                    &:last-child{
+                        &::after{
+                            display: none;
+                        }
+                    }
+                    &:first-child{
+                        padding-top: 0;
+                    }
+                    &:hover{
+                        p{
+                            color: $hover;
+                        }
+                        .date{
+                            color: $normal;
+                        }
+                    }
+                }
+            }
+        }
+        // line 3 start
+        .footer-line3{
+            h3 {
+                @include font('Raleway', 24px, 600, $normal);
+                @include pgap(30px, 30px, 0, 0);
+            }
+            .footer-line3-wrapper{
+                .footer-line3-item{
+                    position: relative;
+                    @include pgap(15px, 15px, 0, 0);
+                    p{
+                        @include font('Montserrat', 14px, 300, $servicehead);
+                        line-height: 20px;
+                    }
+                    span{
+                        @include font('Montserrat', 14px, 300, #00bff3); 
+                        .span-link{
+                            color: #959595;
+                        }
+                    }
+                    
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        left: 0;
+                        bottom:0;
+                        height: 1px;
+                        width: 100%;
+                        background-color: $recentbg2;
+                    }
+                    &:first-child{
+                        padding-top: 0;
+                    }
+                    &:last-child{
+                        &::after{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        // line 4 start
+        .footer-line4{
+            h3 {
+                @include font('Raleway', 24px, 600, $normal);
+                @include pgap(30px, 30px, 0, 0);
+            }
+            .footer-line4-wrapper{
+                .footer-image{
+                    @include mgap(0,30px,0,0);
+                }
+            }
+        }
+    }
+}

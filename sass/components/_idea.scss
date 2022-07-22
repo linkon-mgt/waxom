@@ -1,0 +1,16 @@
+#idea {
+    @include pgap(85px, 0, 0, 0);
+
+    .idea-heading {
+        h2 {
+            @include font('Raleway', 30px, 600, $servicehead);
+            @include pgap(0, 25px, 0, 0);
+        }
+
+        p {
+            @include font('Montserrat', 16px, 300, $servicepara);
+            line-height: 28px;
+            @include pgap(0, 40px, 0, 0);
+        }
+    }
+}

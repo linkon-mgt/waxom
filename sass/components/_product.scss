@@ -1,0 +1,19 @@
+#product{
+    background: url(../images/product-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @include pgap(135px,135px,0,0);
+    position: relative;
+    z-index: 1;
+    &::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(17, 17, 17, 0.7);
+        z-index: -1;
+    }
+}

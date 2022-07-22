@@ -1,0 +1,30 @@
+#purchase {
+    @include pgap(40px, 40px, 0, 0);
+    background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+
+    .purchase-left {
+        h3 {
+            @include font('Raleway', 28px, 400, $normal);
+
+            span {
+                color: $servicehover;
+            }
+        }
+
+        p {
+            @include font('Montserrat', 18px, 300, $purchasepara);
+            @include pgap(10px, 0, 0, 0);
+        }
+    }
+
+    .purchase-right {
+        a {
+            @include font('Raleway',14px,800,$normal);
+            @include pgap(20px,20px,30px,30px);
+            background-color: $purchasebutton;
+            border-radius: 5px;
+            box-shadow: 0 3px 0 0 $purchasebox;
+            text-transform: uppercase;
+        }
+    }
+}

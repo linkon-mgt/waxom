@@ -1,0 +1,865 @@
+/*===========================================
+| Responsive for xtra large device start|   
+==============================================*/
+@media (min-width:1200px) and (max-width:1399.99px){
+/* nothing to do in this device */
+}
+/*===========================================
+| Responsive for xtra large device start|   
+==============================================*/
+
+
+/*===========================================
+| Responsive for large device start|   
+==============================================*/
+@media (min-width:992px) and (max-width:1199.99px){
+     /* navbar part start  */
+    .navbar .logo {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    } 
+    .scroll-logo {
+        padding: 15px 0 !important;
+    }
+    
+    /* navbar part end  */
+
+    /* banner part start  */
+#banner {
+    padding-top: 300px;
+    padding-bottom: 280px;
+}
+
+#banner .banner-content h1 {
+    font-size: 50px;
+}
+
+#banner .banner-content p {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+/* banner part end  */
+
+
+
+/* purchase part start  */
+#purchase .purchase-left h3 {
+    font-size: 24px;
+    text-align: center;
+}
+/* purchase part end  */
+
+
+/* project part start  */
+#project .project-button button {
+    width: 135px;
+    margin-bottom: 20px;
+}
+/* project part end  */
+
+
+/* video part start  */
+#video {
+	padding-top: 180px;
+	padding-bottom: 170px;
+}
+/* video part end  */
+
+
+
+/* portfolio part start  */
+#portfolio .port-content {
+	padding-top: 0;
+}
+#portfolio .port-content .port-content-head h3 {
+	font-size: 23px;
+    padding: 15px;
+}
+#portfolio .port-content .port-content-head p {
+	font-size: 14px;
+    padding-bottom: 15px;
+}
+#portfolio .port-content .port-content-point .port-content-item {
+	padding-bottom: 0;
+}
+#portfolio .port-content .port-content-point .port-content-item .port-content-text p {
+	font-size: 13px;
+}
+/* portfolio part end  */
+
+/* recent part start  */
+#recent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#recent .recent-heading p {
+    font-size: 14px;
+}
+
+/* recent part end  */
+
+}
+/*===========================================
+| Responsive for large device start|   
+==============================================*/
+
+
+/*===========================================
+| Responsive for medium device start|   
+==============================================*/
+@media (min-width:768px) and (max-width:991.99px){
+ /* navbar part start  */
+ .navbar .logo {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.navbar .navbar-nav .nav-item:last-child {
+    padding-right: 15px;
+}
+
+.scroll-logo {
+	padding: 15px 0 !important;
+}
+
+/* navbar part end  */
+
+
+/* banner part start  */
+#banner {
+    padding-top: 250px;
+    padding-bottom: 230px;
+}
+
+#banner .banner-content h1 {
+    font-size: 50px;
+}
+
+#banner .banner-content p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* banner part end  */
+
+ /* service part start  */
+ #service {
+    padding-bottom: 0px;
+}
+
+.service-item {
+    margin-bottom: 50px;
+}
+
+#service .service-item .service-content::after {
+    display: none;
+}
+
+#service .service-item .service-icon {
+    padding-bottom: 15px;
+}
+
+#service .service-item .service-content h4 {
+    padding-bottom: 10px;
+}
+
+/* service part end  */
+
+
+ /* idea part start  */
+ #idea {
+    padding-top: 50px;
+}
+
+/* idea part end  */
+
+
+/* purchase part start  */
+#purchase .purchase-left h3 {
+    font-size: 24px;
+    text-align: center;
+}
+/* purchase part end  */
+
+
+/* video part start  */
+#video {
+	padding-top: 180px;
+	padding-bottom: 170px;
+}
+/* video part end  */
+
+/* portfolio part start  */
+#portfolio {
+    padding-bottom: 50px;
+}
+#portfolio .port-content {
+	padding-top: 0;
+}
+#portfolio .port-content .port-content-head h3 {
+	font-size: 23px;
+    padding: 15px;
+}
+#portfolio .port-content .port-content-head p {
+	font-size: 14px;
+    padding-bottom: 15px;
+}
+#portfolio .port-content .port-content-point .port-content-item {
+	padding-bottom: 0;
+}
+#portfolio .port-content .port-content-point .port-content-item .port-content-text p {
+	font-size: 13px;
+}
+/* portfolio part end  */
+
+
+/* static part start  */
+#static {
+    padding-bottom: 30px;
+}
+
+#static .count-item::after {
+    display: none;
+}
+
+#static .count-item {
+    margin-bottom: 80px;
+}
+
+#static .count-item h4 {
+    padding-bottom: 0px;
+}
+
+/* static part end  */
+
+
+/* recent part start  */
+#recent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#recent .recent-heading p {
+    font-size: 14px;
+}
+
+/* recent part end  */
+
+/* product part start  */
+#product {
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.product-item {
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* product part end  */
+
+  /* copyright part start  */
+  #copyright .copy-left .copy-item::after {
+    display: none;
+ }
+ #copyright .copy-right .copy-item::after {
+  display: none;
+ }
+ .copy-left .copy-item{
+     margin-right: 30px;
+ }
+ .copy-right .copy-item{
+     margin-right: 30px;
+ }
+ /* copyright part end  */
+}
+
+/*===========================================
+| Responsive for medium device end|   
+==============================================*/
+
+
+
+/*===========================================
+| Responsive for small device start|   
+==============================================*/
+@media (min-width:576px) and (max-width:767.99px){
+     /* navbar part start  */
+     .navbar .logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .navbar .logo img {
+        transform: scale(.8);
+    }
+
+    .navbar .bars {
+        transform: scale(.9);
+    }
+
+    .navbar .navbar-nav .nav-item:last-child {
+        padding-right: 15px;
+    }
+
+    .scroll-logo {
+        padding: 10px 0 !important;
+    }
+
+    /* navbar part end  */
+
+
+    /* banner part start  */
+    #banner {
+        padding-top: 200px;
+        padding-bottom: 180px;
+    }
+
+    #banner .banner-content h2 {
+        font-size: 28px;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 36px;
+    }
+
+    #banner .banner-content p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #banner .banner-content a {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* banner part end  */
+
+
+     /* service part start  */
+     #service {
+        padding-bottom: 0px;
+    }
+
+    .service-item {
+        margin-bottom: 50px;
+    }
+
+    #service .service-item .service-content::after {
+        display: none;
+    }
+
+    #service .service-item .service-icon {
+        padding-bottom: 15px;
+    }
+
+    #service .service-item .service-content h4 {
+        padding-bottom: 10px;
+    }
+
+    /* service part end  */
+
+
+     /* idea part start  */
+     #idea {
+        padding-top: 50px;
+    }
+
+    /* idea part end  */
+
+
+    /* purchase part start  */
+    #purchase .purchase-left h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #purchase .purchase-left p {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #purchase .purchase-right a {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    /* purchase part end  */
+
+
+    /* project part start  */
+    #project .project-heading p {
+        font-size: 13px;
+    }
+
+    #project .project-button button {
+        width: 135px;
+        margin-bottom: 20px;
+    }
+
+    #project .project-link a {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    /* project part end  */
+
+
+    /* video part start  */
+    #video {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    #video .video-wrapper .video-play-button {
+        height: 80px;
+        width: 80px;
+        line-height: 76px;
+    }
+
+    #video .video-wrapper .video-play-button svg {
+        height: 60px;
+        width: 60px;
+    }
+
+    /* video part end  */
+
+
+    
+    /* portfolio part start  */
+    #portfolio {
+        padding-bottom: 50px;
+    }
+
+    #portfolio .port-content {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    #portfolio .port-content .port-content-point .port-content-item {
+        padding-bottom: 30px;
+    }
+
+    #portfolio .port-content .port-content-point .port-content-item .port-content-icon {
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        margin-left: 10px;
+        line-height: 30px;
+    }
+
+    #portfolio .port-content .port-content-point .port-content-item .port-content-text p {
+        font-size: 14px;
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    /* portfolio part end  */
+
+
+    /* static part start  */
+    #static {
+        padding-bottom: 30px;
+    }
+
+    #static .count-item::after {
+        display: none;
+    }
+
+    #static .count-item {
+        margin-bottom: 80px;
+    }
+
+    #static .count-item h4 {
+        padding-bottom: 0px;
+    }
+
+    /* static part end  */
+
+
+    /* recent part start  */
+    #recent {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #recent .recent-heading p {
+        font-size: 14px;
+    }
+
+    /* recent part end  */
+
+    /* product part start  */
+    #product {
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+
+    .product-item {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    /* product part end  */
+
+    /* footer part start  */
+    #footer .footer-item .footer-line1 .footer-line1-logo {
+        text-align: center;
+    }
+
+    .footer-item {
+        margin-bottom: 50px;
+    }
+
+    .footer-line1-link {
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-line4 h3 {
+        text-align: center;
+    }
+
+    /* footer part end  */
+
+
+    /* copyright part start  */
+    #copyright .copy-left .copy-item::after {
+       display: none;
+    }
+    #copyright .copy-right .copy-item::after {
+     display: none;
+    }
+    .copy-left .copy-item{
+        margin-right: 30px;
+    }
+    .copy-right .copy-item{
+        margin-right: 30px;
+    }
+    /* copyright part end  */
+
+}
+/*===========================================
+| Responsive for small device start|   
+==============================================*/
+
+
+/*===========================================
+| Responsive for xtra small device start|   
+==============================================*/
+@media (max-width:575.99px) {
+
+    /* navbar part start  */
+    .navbar .logo {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar .logo img {
+        transform: scale(.6);
+    }
+
+    .navbar .bars {
+        transform: scale(.8);
+    }
+
+    .navbar .navbar-nav .nav-item:last-child {
+        padding-right: 15px;
+    }
+
+    .scroll-logo {
+        padding: 0px 0 !important;
+    }
+
+    /* navbar part end  */
+
+
+    /* banner part start  */
+    #banner {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+
+    #banner .banner-content h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    #banner .banner-content p {
+        font-size: 13px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #banner .banner-content a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* banner part end  */
+
+
+    /* service part start  */
+    #service {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .service-item {
+        margin-bottom: 50px;
+    }
+
+    #service .service-item .service-content::after {
+        display: none;
+    }
+
+    #service .service-item .service-icon {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    #service .service-item .service-content h4 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    /* service part end  */
+
+
+    /* idea part start  */
+    #idea {
+        padding-top: 50px;
+    }
+
+    #idea .idea-heading h2 {
+        font-size: 24px;
+    }
+
+    #idea .idea-heading p {
+        font-size: 13px;
+    }
+
+    /* idea part end  */
+
+
+    /* purchase part start  */
+    #purchase .purchase-left h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #purchase .purchase-left p {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    #purchase .purchase-right a {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* purchase part end  */
+
+
+    /* project part start  */
+    #project .project-heading p {
+        font-size: 13px;
+    }
+
+    .project-button button {
+        width: 135px;
+        margin-bottom: 20px;
+    }
+
+    #project .project-link a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* project part end  */
+
+
+    /* video part start  */
+    #video {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #video .video-wrapper .video-play-button {
+        height: 60px;
+        width: 60px;
+        line-height: 35px;
+    }
+
+    #video .video-wrapper .video-play-button svg {
+        height: 40px;
+        width: 40px;
+    }
+
+    #video .video-wrapper .video-play-text h3 {
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+
+    #video .video-wrapper .video-play-text p {
+        font-size: 14px;
+    }
+
+    /* video part end  */
+
+
+    /* portfolio part start  */
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #portfolio .port-content {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    #portfolio .port-content .port-content-head h3 {
+        font-size: 30px;
+    }
+
+    #portfolio .port-content .port-content-head p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    #portfolio .port-content .port-content-point .port-content-item {
+        padding-bottom: 30px;
+    }
+
+    #portfolio .port-content .port-content-point .port-content-item .port-content-icon {
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        margin-left: 10px;
+        line-height: 30px;
+    }
+
+    #portfolio .port-content .port-content-point .port-content-item .port-content-text p {
+        font-size: 14px;
+        padding-left: 15px;
+        text-align: left;
+    }
+
+    /* portfolio part end  */
+
+
+    /* static part start  */
+    #static {
+        padding-bottom: 30px;
+    }
+
+    #static .count-item::after {
+        display: none;
+    }
+
+    #static .count-item {
+        margin-bottom: 80px;
+    }
+
+    #static .count-item h4 {
+        padding-bottom: 0px;
+    }
+
+    /* static part end  */
+
+
+
+    /* recent part start  */
+    #recent {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #recent .recent-heading p {
+        font-size: 14px;
+    }
+
+    /* recent part end  */
+
+    /* product part start  */
+    #product {
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+
+    .product-item {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    /* product part end  */
+
+
+    /* footer part start  */
+    #footer .footer-item .footer-line1 .footer-line1-logo {
+        text-align: center;
+    }
+
+    .footer-item {
+        margin-bottom: 50px;
+    }
+
+    .footer-line1-link {
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-line2 h3 {
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-line3 h3 {
+        text-align: center;
+    }
+
+    #footer .footer-item .footer-line4 h3 {
+        text-align: center;
+    }
+
+    /* footer part end  */
+
+
+    /* copyright part start  */
+    #copyright .copy-left .copy-item::after {
+       display: none;
+    }
+    #copyright .copy-right .copy-item::after {
+     display: none;
+    }
+    /* copyright part end  */
+}
+
+/*===========================================
+| Responsive for xtra small device end|   
+==============================================*/
+
+
+/* =============================================
+|   |   |Back to top button responsive start
+================================================ */
+@media only screen and ( max-width: 767px ) {
+    .back-to-top{
+        display:none !important;
+    }
+}
+/* =============================================
+|   |   |Back to top button responsive end
+================================================ */

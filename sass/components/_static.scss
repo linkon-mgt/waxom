@@ -1,0 +1,33 @@
+#static {
+    background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+    @include pgap(70px, 90px, 0, 0);
+
+    .count-item {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: '';
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 30px;
+            height: 2px;
+            background-color: $normalbg;
+        }
+
+        .c-icon {
+            font-size: 44px;
+            color: $servicehover;
+            @include pgap(0,20px,0,0);
+        }
+        h4{
+            @include font('Montserrat',48px,200,$normal);
+            @include pgap(0,20px,0,0);
+        }
+        p{
+            @include font('Montserrat',14px,300,$servicehover);
+            text-transform: uppercase;
+        }
+    }
+}

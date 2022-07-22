@@ -1,0 +1,83 @@
+#banner {
+    background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include pgap(380px, 380px, 0, 0);
+    position: relative;
+
+    #particles-js {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .banner-content {
+        h2 {
+            @include font('Raleway', 36px, 500, $normal);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            @include font('Raleway', 52px, 800, $normal);
+            margin-bottom: 25px;
+            span{
+                color: #a066c9;
+            }
+        }
+
+        p {
+            @include font('Montserrat', 16px, 300, $normal);
+            line-height: 24px;
+            @include pgap(0, 50px, 65px, 65px)
+        }
+
+        a {
+            @include font('Raleway', 14px, 800, $normal);
+            @include pgap(21px, 21px, 37px, 37px);
+            text-transform: uppercase;
+            border-radius: 5px;
+            background-color: #998675;
+            transition: all linear 0.3s;
+
+            &:hover {
+                box-shadow: 3px 3px 0 #736357;
+            }
+        }
+    }
+}
+// typed js start
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+// typed js end

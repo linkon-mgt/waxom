@@ -1,0 +1,67 @@
+#copyright {
+    background-color: #111111;
+    @include pgap(40px, 40px, 0, 0);
+
+    .copy-left {
+        .copy-item {
+            position: relative;
+
+            p {
+                @include font('Montserrat', 13px, 300, $servicehead);
+
+                span {
+                    color: #959595;
+                }
+            }
+
+            .copy-faq {
+                color: #c7b299;
+            }
+
+            &::after {
+                position: absolute;
+                content: '';
+                right: -15px;
+                top: 3px;
+                height: 12px;
+                width: 2px;
+                background-color: #252525;
+            }
+
+            &:last-child {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .copy-right {
+        .copy-item {
+            position: relative;
+
+            p {
+                @include font('Montserrat', 13px, 300, $servicehead);
+
+                span {
+                    color: #959595;
+                }
+            }
+            &::after{
+                position: absolute;
+                content: '';
+                right: -15px;
+                top: 3px;
+                height: 12px;
+                width: 2px;
+                background-color: #252525; 
+            }
+            
+            &:last-child {
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
