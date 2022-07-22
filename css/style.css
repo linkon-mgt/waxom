@@ -22,6 +22,9 @@ html, body {
 /*===========================================
 |   |   |   common css end|   |   |   |   
 ==============================================*/
+/*===========================================
+|   |   |   navbar css start|   |   |   |   
+==============================================*/
 .navbar {
   position: absolute;
   width: 100%;
@@ -95,6 +98,7 @@ html, body {
   border: 1px solid #ddd;
   flex-direction: column;
   position: relative;
+  cursor: pointer;
 }
 .navbar .bars .line {
   height: 4px;
@@ -146,6 +150,12 @@ html, body {
   padding: 12px 0 !important;
 }
 
+/*===========================================
+|   |   |   navbar css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   banner css start|   |   |   |   
+==============================================*/
 #banner {
   background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/banner.jpg);
   background-position: center;
@@ -247,6 +257,12 @@ html, body {
     opacity: 1;
   }
 }
+/*===========================================
+|   |   |   banner css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   service css start|   |   |   |   
+==============================================*/
 #service {
   padding-top: 80px;
   padding-bottom: 110px;
@@ -308,6 +324,12 @@ html, body {
   background-color: #c7b299;
 }
 
+/*===========================================
+|   |   |   service css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   idea css start|   |   |   |   
+==============================================*/
 #idea {
   padding-top: 85px;
   padding-bottom: 0;
@@ -336,6 +358,12 @@ html, body {
   padding-right: 0;
 }
 
+/*===========================================
+|   |   |   idea css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   purchase css start|   |   |   |   
+==============================================*/
 #purchase {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -377,6 +405,12 @@ html, body {
   text-transform: uppercase;
 }
 
+/*===========================================
+|   |   |   purchase css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   project css start|   |   |   |   
+==============================================*/
 #project {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -547,6 +581,12 @@ html, body {
   box-shadow: 0 3px 0 0 #736357;
 }
 
+/*===========================================
+|   |   |   project css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   video css start|   |   |   |   
+==============================================*/
 #video {
   background: url(../images/video.jpg);
   background-repeat: no-repeat;
@@ -578,6 +618,7 @@ html, body {
   line-height: 100px;
   color: #fff;
   font-size: 60px;
+  text-align: center;
 }
 #video .video-wrapper .video-play-text h3 {
   font-family: "Raleway";
@@ -598,6 +639,12 @@ html, body {
   line-height: 28px;
 }
 
+/*===========================================
+|   |   |   video css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   portfolio css start|   |   |   |   
+==============================================*/
 #portfolio {
   background-color: #fbfaf8;
   padding-top: 75px;
@@ -643,8 +690,8 @@ html, body {
   padding-bottom: 15px;
 }
 #portfolio .port-content .port-content-point .port-content-item .port-content-icon {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   background-color: #c7b299;
   text-align: center;
@@ -655,6 +702,9 @@ html, body {
   line-height: 20px;
   color: #ffffff;
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #portfolio .port-content .port-content-point .port-content-item .port-content-text p {
   font-family: "Montserrat";
@@ -667,6 +717,12 @@ html, body {
   padding-right: 0;
 }
 
+/*===========================================
+|   |   |   portfolio css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   static css start|   |   |   |   
+==============================================*/
 #static {
   background: linear-gradient(to right, #211b19 0%, #4e3427 100%);
   padding-top: 70px;
@@ -713,6 +769,12 @@ html, body {
   text-transform: uppercase;
 }
 
+/*===========================================
+|   |   |   static css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   recent css start|   |   |   |   
+==============================================*/
 #recent {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -900,6 +962,12 @@ html, body {
   color: #c7b299;
 }
 
+/*===========================================
+|   |   |   recent css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   product css start|   |   |   |   
+==============================================*/
 #product {
   background: url(../images/product-banner.jpg);
   background-repeat: no-repeat;
@@ -923,6 +991,12 @@ html, body {
   z-index: -1;
 }
 
+/*===========================================
+|   |   |   product css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   footer css start|   |   |   |   
+==============================================*/
 #footer {
   background-color: #191919;
   padding-top: 80px;
@@ -1068,6 +1142,12 @@ html, body {
   margin-right: 0;
 }
 
+/*===========================================
+|   |   |   footer css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   copyright css start|   |   |   |   
+==============================================*/
 #copyright {
   background-color: #111111;
   padding-top: 40px;
@@ -1127,6 +1207,12 @@ html, body {
   display: none;
 }
 
+/*===========================================
+|   |   |   copyright css end|   |   |   |   
+==============================================*/
+/*===========================================
+|   |   |   back to top css start|   |   |   |   
+==============================================*/
 .back-to-top {
   position: fixed;
   right: 15px;
@@ -1172,4 +1258,7 @@ html, body {
     right: 15px;
     bottom: 15px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*===========================================
+|   |   |   back to top css end|   |   |   |   
+==============================================*//*# sourceMappingURL=style.css.map */

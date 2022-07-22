@@ -1,3 +1,6 @@
+/*===========================================
+|   |   |   video css start|   |   |   |   
+==============================================*/
 #video{
     background: url(../images/video.jpg);
     background-repeat: no-repeat;
@@ -26,6 +29,7 @@
             line-height: 100px;
             color: $normal;
             font-size: 60px;
+            text-align: center
         }
         .video-play-text{
             h3{
@@ -40,3 +44,6 @@
         }
     }
 }
+/*===========================================
+|   |   |   video css end|   |   |   |   
+==============================================*/

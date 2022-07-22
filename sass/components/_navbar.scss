@@ -1,3 +1,6 @@
+/*===========================================
+|   |   |   navbar css start|   |   |   |   
+==============================================*/
 .navbar {
     position: absolute;
     width: 100%;
@@ -78,6 +81,7 @@
         border: 1px solid #ddd;
         flex-direction: column;
         position: relative;
+        cursor: pointer;
 
         .line {
             height: 4px;
@@ -127,3 +131,7 @@
 .scroll-logo {
     padding: 12px 0 !important;
 }
+/*===========================================
+|   |   |   navbar css end|   |   |   |   
+==============================================*/
+

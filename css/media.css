@@ -417,12 +417,8 @@
     #video .video-wrapper .video-play-button {
         height: 80px;
         width: 80px;
-        line-height: 76px;
-    }
-
-    #video .video-wrapper .video-play-button svg {
-        height: 60px;
-        width: 60px;
+        line-height: 80px;
+        font-size: 40px;
     }
 
     /* video part end  */
@@ -443,13 +439,13 @@
         padding-bottom: 30px;
     }
 
-    #portfolio .port-content .port-content-point .port-content-item .port-content-icon {
+    /* #portfolio .port-content .port-content-point .port-content-item .port-content-icon {
         height: 30px;
         width: 30px;
         text-align: center;
         margin-left: 10px;
         line-height: 30px;
-    }
+    } */
 
     #portfolio .port-content .port-content-point .port-content-item .port-content-text p {
         font-size: 14px;
@@ -681,6 +677,9 @@
         width: 135px;
         margin-bottom: 20px;
     }
+    #project .project-button button {
+        margin-bottom: 20px;
+    }
 
     #project .project-link a {
         padding-top: 15px;
@@ -701,12 +700,8 @@
     #video .video-wrapper .video-play-button {
         height: 60px;
         width: 60px;
-        line-height: 35px;
-    }
-
-    #video .video-wrapper .video-play-button svg {
-        height: 40px;
-        width: 40px;
+        line-height: 60px;
+        font-size: 30px;
     }
 
     #video .video-wrapper .video-play-text h3 {
@@ -746,11 +741,7 @@
     }
 
     #portfolio .port-content .port-content-point .port-content-item .port-content-icon {
-        height: 30px;
-        width: 30px;
-        text-align: center;
         margin-left: 10px;
-        line-height: 30px;
     }
 
     #portfolio .port-content .port-content-point .port-content-item .port-content-text p {
