@@ -146,11 +146,7 @@ $(function () {
 
     // venu box js start
     new VenoBox({
-        selector: '.my-image-links',
-        numeration: true,
-        infinigall: true,
-        share: true,
-        spinner: 'rotating-plane'
+        selector: '.my-video-links',
     });
     // venu box js end
 
